@@ -1,9 +1,9 @@
 """
 title: Groq Starficient
-author: https://github.com/kha1n3vol3/groq-pipe
+author: https://github.com/kha1n3vol3
 author_url: https://github.com/kha1n3vol3
 funding_url: https://github.com/kha1n3vol3
-version: 0.1
+version: 0.2
 
 This module exports one public class – ``Pipe`` – that adapts Groq’s
 OpenAI-compatible REST API to Open WebUI’s plug-in interface.
@@ -137,6 +137,8 @@ class Pipe:
             "llama-3.3-70b-versatile",
             "llama3-70b-8192",
             "llama3-8b-8192",
+            "openai/gpt-oss-20b",
+            "openai/gpt-oss-120b",
             "meta-llama/llama-guard-4-12b",
             "meta-llama/llama-prompt-guard-2-22m",
             "meta-llama/llama-prompt-guard-2-86m",
